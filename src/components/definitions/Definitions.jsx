@@ -22,8 +22,8 @@ function Definitions({ word, meanings, language, lightMode }) {
       ) : (
         meanings.map(m =>
           m.meanings.map(item =>
-            item.definitions.map(def => (
-              <div
+            item.definitions.map((def,i) => (
+              <div key={i}
                 style={{
                   backgroundColor: lightMode ? "#f9f9f9" : "#111",
                   color: lightMode ? "#111" : "#fff",
