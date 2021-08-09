@@ -68,7 +68,7 @@ function App() {
 
   }, [keyWord, lang])
   return (
-    <div className="App" style={{backgroundColor:lightMode?"#fff":"#282c34"
+    <div className="App" style={{backgroundColor:lightMode?"#f0f0f0":"#282c34"
     ,color:lightMode?"#111":"#fff",transition:"all 0.5s linear"}}>
       <Container maxWidth="md" style={{ display: 'flex', flexDirection: 'column', height: '100vh',justifyContent:"spaceEvenly" }}>
         <div style={{position:"absolute",top:0,right:15,paddingTop:10}}>

@@ -14,10 +14,18 @@
   flex-direction: column;
   height: 35vh;
   width: 100%;
+  margin-bottom:2rem;
 }
 @media (max-width:500px) {
   .header{
     margin-top:2rem;
   }
   
+}
+@media (min-width:900px) {
+  
+    .title{
+      font-size:5vw;
+  }
+
 }
